@@ -19,6 +19,7 @@ background-color: rgb(151, 228, 252);
 padding: 0px;
 margin: 0px;
 overflow: hidden;
+boarder: 2px;
 boarder-radius: 35px;
 }
 
