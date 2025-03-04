@@ -7,11 +7,21 @@ main{
     margin-right: 20px;
 }
 
+/*centered logo on index.html*/
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 
 h1{
 text-align: center;
 }
 
+/*navbar*/
 
 .navbar ul{
 list-style-type: none;
