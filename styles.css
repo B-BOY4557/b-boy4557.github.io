@@ -6,6 +6,7 @@ main{
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
+   font-size: large;
 }
 
 /*centered logo on index.html*/
@@ -52,6 +53,8 @@ float: left;
 }
 
 
+
+
 /*background*/
 
 body {
@@ -72,3 +75,5 @@ body {
     width: 200px;
     height: 150px;
   }
+
+
