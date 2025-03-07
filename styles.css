@@ -77,3 +77,27 @@ body {
   }
 
 
+
+  .clnav{
+    list-style-type: none;
+    background-color: rgb(151, 228, 252);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+  }
+
+  .clnav a{
+    color: rgb(4, 0, 22);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    }
+
+
+        
+        .clnav li{
+        float: center;
+        }
