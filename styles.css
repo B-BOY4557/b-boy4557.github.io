@@ -30,10 +30,11 @@ text-align: center;
 .navbar ul{
 list-style-type: none;
 background-color: rgb(151, 228, 252);
-padding: 0px;
+padding: 2px;
 margin: 0px;
 overflow: hidden;
-border-radius: 0px 0px 25px 25px;
+border-radius: -0px 0px 25px 25px;
+border:2px solid rgb(255, 255, 255);
 }
 
 .navbar a{
@@ -52,8 +53,32 @@ background-color: hsl(192, 100%, 85%);
 float: left;
 }
 
+/*clnav on contact.html*/
 
+.clnav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
 
+.clnav li {
+    margin: 0 10px;
+}
+
+.clnav a {
+    text-decoration: none;
+    color: rgb(4, 0, 22);
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+}
+
+.clnav a:hover {
+    background-color: hsl(192, 100%, 85%);
+    border-radius: 5px;
+}
 
 /*background*/
 
@@ -78,26 +103,3 @@ body {
 
 
 
-  .clnav{
-    list-style-type: none;
-    background-color: rgb(151, 228, 252);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    border-radius: 0px 0px 25px 25px;
-    text-align: center;
-  }
-
-  .clnav a{
-    color: rgb(4, 0, 22);
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-    }
-
-
-        
-        .clnav li{
-        float: center;
-        }
