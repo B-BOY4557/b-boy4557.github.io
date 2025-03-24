@@ -82,6 +82,7 @@ float: left;
 
 /*background*/
 
+/*index.html*/
 .index {
  background-image: url("images/backdrop.png");
  background-color: #9ae4ff;
@@ -92,6 +93,44 @@ float: left;
     background-size: cover;
 }
 
+/*art.html*/
+.art {
+    background-image: url("images/");
+    background-color: #10566f;
+    background-size: 100vw 100vh;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+   }
+
+/*workon.html*/
+.workon {
+    background-image: url("images/");
+    background-color: #107fa7;
+    background-size: 100vw 100vh;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+   }
+
+
+   /*contact.html*/
+.contacthtm {
+    background-image: url("images/");
+    background-color: #0e4e66;
+    background-size: 100vw 100vh;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+   }
+
+/*about.html background located in the "about.css" file*/
+
+/*end of background per html file*/
+
 
 #rcorners2 {
     border-radius: 25px;
@@ -101,7 +140,7 @@ float: left;
     height: 150px;
   }
 
-
+/*starico left*/
   .starico {
     display: block;
     margin-left: 10px;
@@ -109,4 +148,12 @@ float: left;
     width: 10%;
   }
 
+  /*starico right*/
+  .starico2 {
+    display: block;
+    margin-left: 90%;
+    margin-right: right;
+    margin-top: -25%;
+    width: 10%;
+  }
 
