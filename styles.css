@@ -82,7 +82,7 @@ float: left;
 
 /*background*/
 
-body {
+.index {
  background-image: url("images/backdrop.png");
  background-color: #9ae4ff;
  background-size: 100vw 100vh;
@@ -101,5 +101,12 @@ body {
     height: 150px;
   }
 
+
+  .starico {
+    display: block;
+    margin-left: 10px;
+    margin-right: left;
+    width: 10%;
+  }
 
 
