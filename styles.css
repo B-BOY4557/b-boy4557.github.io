@@ -13,6 +13,7 @@ main{
 
 .logo {
     display: block;
+    margin-top: top;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -84,7 +85,7 @@ float: left;
 
 /*index.html*/
 .index {
- background-image: url("images/backdrop.png");
+ background-image: url("images/");
  background-color: #9ae4ff;
  background-size: 100vw 100vh;
     background-attachment: fixed;
@@ -143,6 +144,7 @@ float: left;
 /*starico left*/
   .starico {
     display: block;
+    margin-top: -5%;
     margin-left: 10px;
     margin-right: left;
     width: 10%;
